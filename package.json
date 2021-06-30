@@ -1,12 +1,15 @@
 {
-  "name": "malil-backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "asciify-image": "https://github.com/malilbot/asciify-image",
-    "discord.js-light": "^3.5.11",
-    "fastify": "^3.18.1",
-    "pet-pet-gif": "^1.0.8"
-  }
+	"name": "malil-backend",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"asciify-image": "https://github.com/malilbot/asciify-image",
+		"discord.js-light": "^3.5.11",
+		"fastify": "^3.18.1",
+		"pet-pet-gif": "^1.0.8"
+	}
 }
