@@ -1,36 +1,70 @@
 export const filemap = {
-	AMERICA:
+	'ADDTAG':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/ADDTAG.png',
+	'AMERICA':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/AMERICA.png',
-	AVATAR:
+	'AVATAR':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/AVATAR.png',
-	BLAME:
+	'BLAME':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/BLAME.png',
-	CRAB: 'https://raw.githubusercontent.com/malilbot/backend/main/images/CRAB.png',
-	ENCODE:
+	'CRAB':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/CRAB.png',
+	'DELETETAG':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/DELETETAG.png',
+	'DTAG':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/DTAG.png',
+	'ENCODE':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/ENCODE.png',
-	FACT: 'https://raw.githubusercontent.com/malilbot/backend/main/images/FACT.png',
-	FEDORA:
+	'FACT':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/FACT.png',
+	'FEDORA':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/FEDORA.png',
-	GITHUBUSER:
+	'GITHUBUSER':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/GITHUBUSER.png',
-	HELP: 'https://raw.githubusercontent.com/malilbot/backend/main/images/HELP.png',
-	INVITE:
+	'HELP':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/HELP.png',
+	'INVITE':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/INVITE.png',
-	IQTEST:
+	'IQTEST':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/IQTEST.png',
-	MAKEMEME:
+	'MAKEMEME':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/MAKEMEME.png',
-	MATH: 'https://raw.githubusercontent.com/malilbot/backend/main/images/MATH.png',
-	MOCK: 'https://raw.githubusercontent.com/malilbot/backend/main/images/MOCK.png',
-	PAT: 'https://raw.githubusercontent.com/malilbot/backend/main/images/PAT.png',
-	PING: 'https://raw.githubusercontent.com/malilbot/backend/main/images/PING.png',
-	RAW: 'https://raw.githubusercontent.com/malilbot/backend/main/images/RAW.png',
-	SERVER:
+	'MATH':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/MATH.png',
+	'MOCK':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/MOCK.png',
+	'PAT':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/PAT.png',
+	'PING':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/PING.png',
+	'RAW':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/RAW.png',
+	'RAWTAG':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/RAWTAG.png',
+	'REACTIONROLES':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/REACTIONROLES.png',
+	'SERVER':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/SERVER.png',
-	SHORTEN:
+	'SHORTEN':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/SHORTEN.png',
-	SUPPORT:
+	'STATS':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/STATS.png',
+	'SUPPORT':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/SUPPORT.png',
-	YOUTUBE:
+	'TAG':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/TAG.png',
+	'TAGS':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/TAGS.png',
+	'USERINFO':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/USERINFO.png',
+	'VOTE':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/VOTE.png',
+	'YOUTUBE':
 		'https://raw.githubusercontent.com/malilbot/backend/main/images/YOUTUBE.png',
+	'not as cool as tricked':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/not as cool as tricked.png',
+	'pain':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/pain.png',
+	'rank':
+		'https://raw.githubusercontent.com/malilbot/backend/main/images/rank.png',
 };
