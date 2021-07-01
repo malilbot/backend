@@ -4,7 +4,7 @@ const files = fs.readdirSync(path.join(__dirname, './images'));
 const filess = [];
 const fileMap = {};
 for (const file of files) {
-	const filePath = `https://github.com/malilbot/backend/blob/main/images/${file}`;
+	const filePath = `https://raw.githubusercontent.com/malilbot/backend/main/images/${file}`;
 	const name = file.replace('.png', '');
 	filess.push(filePath);
 	fileMap[name] = filePath;
