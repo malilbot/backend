@@ -8,7 +8,6 @@
 	},
 	"dependencies": {
 		"asciify-image": "https://github.com/malilbot/asciify-image",
-		"discord.js-light": "^3.5.11",
 		"fastify": "^3.18.1",
 		"pet-pet-gif": "^1.0.8"
 	}

@@ -1,5 +1,5 @@
-const express = require('fastify');
-const app = express();
+const fastify = require('fastify');
+const app = fastify();
 const pet = require('pet-pet-gif');
 const asciify = require('asciify-image');
 const options = {
@@ -8,6 +8,7 @@ const options = {
 	height: 64,
 	color: false,
 };
+
 app.get('/', (req, res) => {
 	res.send('hi');
 });
