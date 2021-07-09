@@ -18,6 +18,16 @@ export const responses = [
 		triggers: [[`bann`]],
 	},
 	{
+		guilds: [drm],
+		message: {
+			content: `https://quantizr.github.io/posts/is-it-bannable/`,
+		},
+		triggers: [
+			[`how`, 'where', 'drm'],
+			['download', 'mod', 'install'],
+		],
+	},
+	{
 		guilds: [skytils],
 		message: {
 			content: `You cant have a / infront of the alias or it wont work\nhttps://cdn.discordapp.com/attachments/807302538558308355/848490813657841694/unknown.png`,
