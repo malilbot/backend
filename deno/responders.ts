@@ -20,7 +20,7 @@ export const responses = [
 	{
 		guilds: [drm],
 		message: {
-			content: `https://quantizr.github.io/posts/is-it-bannable/`,
+			content: `https://quantizr.github.io/posts/how-to-install/`,
 		},
 		triggers: [
 			['how', 'where', 'download', 'install'],
