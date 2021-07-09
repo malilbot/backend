@@ -23,8 +23,8 @@ export const responses = [
 			content: `https://quantizr.github.io/posts/is-it-bannable/`,
 		},
 		triggers: [
-			[`how`, 'where', 'drm'],
-			['download', 'mod', 'install'],
+			['how', 'where', 'download', 'install'],
+			['drm', 'mod', 'this'],
 		],
 	},
 	{
