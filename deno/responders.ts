@@ -71,7 +71,7 @@ export const responses = [
   {
     guilds: [skytils],
     message: {
-      content: `https://cdn.discordapp.com/attachments/807328920935858214/848967113607217192/u0wPZhuu.mp4`,
+      content: `https://cdn.discordapp.com/attachments/786149025098235918/867505281343553577/How_to_Download_101.mp4`,
     },
     triggers: [
       [`how`, `where`],
