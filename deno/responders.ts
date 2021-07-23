@@ -30,6 +30,16 @@ export const responses = [
   {
     guilds: [drm],
     message: {
+      content: `https://cdn.discordapp.com/attachments/827388251022950441/868187335215448124/waypointtts.mp4`,
+    },
+    triggers: [
+      [`show`, "display"],
+      [`dungeon`, `waypoint`, "up"],
+    ],
+  },
+  {
+    guilds: [drm],
+    message: {
       content: `To remove the SBP secret images, you have to press a hotkey (which is configurable in the Minecraft controls menu). Default keys are O to open images, B for previous image, N for next image, and M to clear/remove images from the screen.`,
     },
     triggers: [
