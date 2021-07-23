@@ -55,6 +55,13 @@ export const responses = [
     triggers: [[`location`]],
   },
   {
+    guilds: [skytils],
+    message: {
+      content: `We dont have that bot smh`,
+    },
+    triggers: [[`.n`]],
+  },
+  {
     guilds: [skytils, drm, dg],
     message: {
       content: `Win key + R and then type %appdata%\\.minecraft\\crash-reports\n` + `mac: ~/Library/Application Support/minecraft\n` + `Linux: You should know this if your using linux\n` + `https://cdn.discordapp.com/attachments/807302782432051230/845361400288772126/2021-04-29T13-29-47.mp4`,
