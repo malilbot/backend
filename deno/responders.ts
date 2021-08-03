@@ -20,7 +20,7 @@ export const responses = [
     triggers: [
         ["where", "how"],
         ["install", "get", "download"],
-        ["drm", "dungeons rooms mod", "dungeon rooms mod", "dungeons room mod", "dungeon room mod"]
+        ["drm", "dungeons rooms mod", "dungeon rooms mod", "dungeons room mod", "dungeon room mod", "this"]
     ]
   },
   {
