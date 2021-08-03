@@ -15,6 +15,17 @@ export const responses = [
   {
     guilds: [drm],
     message: {
+      content: "https://quantizr.github.io/posts/how-to-install/"
+    },
+    triggers: [
+        ["where", "how"],
+        ["install", "get", "download"],
+        ["drm", "dungeons rooms mod", "dungeon rooms mod", "dungeons room mod", "dungeon room mod"]
+    ]
+  },
+  {
+    guilds: [drm],
+    message: {
       content: `https://cdn.discordapp.com/attachments/827388251022950441/868187335215448124/waypointtts.mp4`,
     },
     triggers: [
