@@ -15,13 +15,13 @@ export const responses = [
   {
     guilds: [drm],
     message: {
-      content: "https://quantizr.github.io/posts/how-to-install/"
+      content: "https://quantizr.github.io/posts/how-to-install/",
     },
     triggers: [
-        ["where", "how"],
-        ["install", "get", "download"],
-        ["drm", "dungeons rooms mod", "dungeon rooms mod", "dungeons room mod", "dungeon room mod", "this"]
-    ]
+      ["where", "how"],
+      ["install", "get", "download"],
+      ["drm", "dungeons rooms mod", "dungeon rooms mod", "dungeons room mod", "dungeon room mod", "this"],
+    ],
   },
   {
     guilds: [drm],
@@ -72,7 +72,7 @@ export const responses = [
   {
     guilds: [skytils],
     message: {
-      content: `Locations are a bit wack atm will be fixed\nYou can use your scroll wheel to change the size and if that doesnt work delete your gui scales file to fix it ( .minecraft/config/skytils/guipositions.json ) `,
+      content: `You can reset locations by right clicking on what you want to reset or using the scroll wheel\nto completely reset locations delete the locations file ( .minecraft/config/skytils/guipositions.json ) `,
     },
     triggers: [[`location`]],
   },
@@ -100,7 +100,7 @@ export const responses = [
       content: `Win key + R and then type \`%appdata%\\.minecraft\\crash-reports\`\n` + `mac: \`~/Library/Application Support/minecraft\`\n` + `Linux: You should know this if your using linux\n` + `https://cdn.discordapp.com/attachments/807302782432051230/845361400288772126/2021-04-29T13-29-47.mp4`,
     },
     triggers: [[`send`], ["crash"]],
-  }
+  },
 ];
 
 ///////////////////////////////
