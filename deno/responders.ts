@@ -12,20 +12,16 @@ export const responses = [
     },
     triggers: [[`bann`]],
   },
-
   {
-    guilds: [skytils],
+    guilds: [drm],
     message: {
-      content: `You cant have a / infront of the alias or it wont work\nhttps://cdn.discordapp.com/attachments/807302538558308355/848490813657841694/unknown.png`,
+      content: "https://quantizr.github.io/posts/how-to-install/"
     },
-    triggers: [["aliases"]],
-  },
-  {
-    guilds: [dg],
-    message: {
-      content: `This mod, like all others is use at your own risk. Even though it is *use at your own risk*, there have no reports of users being banned from the mod, and it should follow all of the current hypixel mod rules.`,
-    },
-    triggers: [[`bannable`]],
+    triggers: [
+        ["where", "how"],
+        ["install", "get", "download"],
+        ["drm", "dungeons rooms mod", "dungeon rooms mod", "dungeons room mod", "dungeon room mod", "this"]
+    ]
   },
   {
     guilds: [drm],
@@ -57,6 +53,22 @@ export const responses = [
       [`sbp`, `skyblockplus`, `personalized`],
     ],
   },
+
+  {
+    guilds: [dg],
+    message: {
+      content: `This mod, like all others is use at your own risk. Even though it is *use at your own risk*, there have no reports of users being banned from the mod, and it should follow all of the current hypixel mod rules.`,
+    },
+    triggers: [[`bannable`]],
+  },
+
+  {
+    guilds: [skytils],
+    message: {
+      content: `You cant have a / infront of the alias or it wont work\nhttps://cdn.discordapp.com/attachments/807302538558308355/848490813657841694/unknown.png`,
+    },
+    triggers: [["aliases"]],
+  },
   {
     guilds: [skytils],
     message: {
@@ -72,13 +84,6 @@ export const responses = [
     triggers: [[`.n`]],
   },
   {
-    guilds: [skytils, drm, dg],
-    message: {
-      content: `Win key + R and then type \`%appdata%\\.minecraft\\crash-reports\`\n` + `mac: \`~/Library/Application Support/minecraft\`\n` + `Linux: You should know this if your using linux\n` + `https://cdn.discordapp.com/attachments/807302782432051230/845361400288772126/2021-04-29T13-29-47.mp4`,
-    },
-    triggers: [[`send`], ["crash"]],
-  },
-  {
     guilds: [skytils],
     message: {
       content: `https://cdn.discordapp.com/attachments/786149025098235918/867505281343553577/How_to_Download_101.mp4`,
@@ -88,6 +93,14 @@ export const responses = [
       [`download`, `mod`],
     ],
   },
+
+  {
+    guilds: [skytils, drm, dg],
+    message: {
+      content: `Win key + R and then type \`%appdata%\\.minecraft\\crash-reports\`\n` + `mac: \`~/Library/Application Support/minecraft\`\n` + `Linux: You should know this if your using linux\n` + `https://cdn.discordapp.com/attachments/807302782432051230/845361400288772126/2021-04-29T13-29-47.mp4`,
+    },
+    triggers: [[`send`], ["crash"]],
+  }
 ];
 
 ///////////////////////////////
