@@ -1,2 +1,1 @@
-export * from './responders.ts';
-export * from './scamdomains.ts';
+export * from "./responders.ts";

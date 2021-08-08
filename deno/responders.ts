@@ -1,5 +1,5 @@
-export const guilds = [807302538558308352n, 804143990869590066n, 781913473872560189n, 748956745409232945n];
-const [skytils, drm, dg, tricked] = guilds;
+export const guilds = [807302538558308352n, 804143990869590066n, 781913473872560189n, 742112973799293011n, 748956745409232945n];
+const [skytils, drm, dg, dsm, tricked] = guilds;
 
 ///////////////////////////////
 /////////Responses/////////////
@@ -81,7 +81,7 @@ export const responses = [
     message: {
       content: `We dont have that bot smh`,
     },
-    triggers: [[`.n`]],
+    triggers: [[`.n`], [".n"]],
   },
   {
     guilds: [skytils],
@@ -93,9 +93,33 @@ export const responses = [
       [`download`, `mod`],
     ],
   },
+  {
+    guilds: [dsm],
+    message: {
+      content: `**Follow this guide for custom music**: <https://github.com/bowser0000/SkyblockMod/tree/development#custom-music>` + `**Borrow music from youtube**: <https://keepv.id/7/>` + `**convert mp4 to wav**: <https://www.onlineconverter.com/video-to-wav>`,
+    },
+    triggers: [["how", "work", "custom"], ["music"]],
+  },
+  {
+    guilds: [dsm],
+    message: {
+      content: `Update to the latest dsm commit <#742114256555606106>`,
+    },
+    triggers: [
+      ["xp", "tracker", "skill"],
+      ["work", "doesn"],
+    ],
+  },
+  {
+    guilds: [dsm],
+    message: {
+      content: `You can download dsm at <#742114256555606106>`,
+    },
+    triggers: [["where", "download"], ["mod"]],
+  },
 
   {
-    guilds: [skytils, drm, dg],
+    guilds: [skytils, drm, dg, dsm],
     message: {
       content: `Win key + R and then type \`%appdata%\\.minecraft\\crash-reports\`\n` + `mac: \`~/Library/Application Support/minecraft\`\n` + `Linux: You should know this if your using linux\n` + `https://cdn.discordapp.com/attachments/807302782432051230/845361400288772126/2021-04-29T13-29-47.mp4`,
     },
