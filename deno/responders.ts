@@ -96,7 +96,7 @@ export const responses = [
   {
     guilds: [dsm],
     message: {
-      content: `**Follow this guide for custom music**: <https://github.com/bowser0000/SkyblockMod/tree/development#custom-music>` + `**Borrow music from youtube**: <https://keepv.id/7/>` + `**convert mp4 to wav**: <https://www.onlineconverter.com/video-to-wav>`,
+      content: `**Follow this guide for custom music**: <https://github.com/bowser0000/SkyblockMod/tree/development#custom-music>\n` + `**Borrow music from youtube**: <https://keepv.id/7/>\n` + `**convert mp4 to wav**: <https://www.onlineconverter.com/video-to-wav>`,
     },
     triggers: [["how", "work", "custom"], ["music"]],
   },
